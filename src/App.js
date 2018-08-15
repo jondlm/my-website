@@ -31,8 +31,8 @@ const Home = () => (
   </div>
 )
 
-const summer2018 = () => (
-  <div className="home">
+const Summer2018 = () => (
+  <div>
     <Link to="/"><Icon.Code className="home-icon" size={48}/></Link>
     <div>
       <h1 className="content">
@@ -46,7 +46,7 @@ const summer2018 = () => (
 )
 
 const Resume = () => (
-  <div className="lucid">
+  <div>
     <Link to="/"><Icon.Code className="home-icon" size={48}/></Link>
     <div>
       <h1 className="content">
@@ -103,7 +103,7 @@ const Site = () => (
     <div>
       <Route exact path="/" component={Home}/>
       <Route exact path="/resume" component={Resume}/>
-      <Route exact path="/summer2018" component={summer2018}/>
+      <Route exact path="/summer2018" component={Summer2018}/>
       <Route path="/resumeLink" component={() => window.location =
         'https://docs.google.com/document/d/1lXCf19z7tdRiqdUCegLy_Qj7ZhZ57ICIHq2QEVrf6BY/edit?usp=sharing'}/>
       <Route path="/blog" component={Blog}/>
