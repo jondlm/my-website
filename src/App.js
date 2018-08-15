@@ -51,11 +51,12 @@ const Resume = () => (
     <div>
       <h1 className="content">
         Go ahead and check out my résumé. And while you're at it, feel free to share it on Facebook, give it 
-        to your <Link to="michaelScott" className="hidden-content-link">awesome employer</Link>, or, if you're really into it, print it out and frame it. I won't mind.
+        to your <Link to="michaelScott" className="hidden-content-link">awesome employer</Link>, or, if you're 
+        really into it, print it out and frame it. I won't mind.
       </h1>  
-      <Link className="navigation-bar-link" to="/resumeLink">
+      <a src="/static/Lilie-de-la-Motte-Resume.pdf" className="navigation-bar-link">
         <Icon.Download className="download-icon" size={40}/>
-      </Link>
+      </a>
     </div>
   </div>
 )
