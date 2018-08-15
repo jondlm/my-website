@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.button {
+  background-color: #66b2b2;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 16px 10px;
+  margin: 10px 5px 10px 0px;
+  width: 225px;
+  height: 125px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #008080;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.icon {
+  color: #66b2b2;
+  margin: 50px 20px 50px 0px;
+}
+
+.icon:hover {
+  color: #008080;
+}
+
+.home-icon {
+  color: #66b2b2;
+  margin: 50px 100px;
+}
+
+.home-icon:hover {
+  color: #008080;
+}
+
+.download-icon {
+  color: #66b2b2;
+  padding: 0px 10px 10px 100px;
+}
+
+.download-icon:hover {
+  color: #008080;
+}
+
+.footer {
+  padding: 150px 0px 0px 100px;
+  justify-content: center;
+}
+
+.navigation-bar {
+  padding-left: 100px;
+}
+
+.navigation-bar-link {
+  margin: 50px 20px 10px 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+.navigation-bar-link:link, .navigation-bar-link:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.navigation-bar-link:hover, .navigation-bar-link:active {
+  text-decoration: none;
+  color: white;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 50px;
+  text-align: left;
+  padding: 10px 100px 50px 100px;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.content {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 30px;
+  text-align: left;
+  padding: 10px 100px 50px 100px;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.content-link {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.content-link:link, .content-link:visited {
+  text-decoration: underline;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.content-link:hover, .content-link:active {
+  text-decoration: underline;
+  color: #66b2b2;
+}
+
+.hidden-content-link {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.hidden-content-link:link, .hidden-content-link:visited {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.hidden-content-link:hover, .hidden-content-link:active {
+  text-decoration: none;
+  color: #66b2b2;
+}
+
+.content-icon {
+  padding: 0;
+  color: rgba(0, 0, 0, 0.6);
+}
