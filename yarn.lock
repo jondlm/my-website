@@ -5566,7 +5566,7 @@ react-error-overlay@^4.0.0:
 
 react-feather@^1.1.1:
   version "1.1.1"
-  resolved "https://artifactory.prod.adnxs.net:443/artifactory/api/npm/npm/react-feather/-/react-feather-1.1.1.tgz?dl=https://registry.yarnpkg.com/react-feather/-/react-feather-1.1.1.tgz#dd59143af457601e68f2cd3bf32c0d94d30f89e7"
+  resolved "https://registry.yarnpkg.com/react-feather/-/react-feather-1.1.1.tgz#dd59143af457601e68f2cd3bf32c0d94d30f89e7"
 
 react-router-dom@^4.3.1:
   version "4.3.1"
